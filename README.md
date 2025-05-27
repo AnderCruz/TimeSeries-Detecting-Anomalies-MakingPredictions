@@ -1,56 +1,87 @@
-# Restaurant Customer Forecasting Project
+# Forecasting Restaurant Customers with Regression Models
 
 **Developed by Nowa Analytics Consulting**
+*Portfolio Project by Anderson Cruz*
 
-## Overview
+## Project Summary
 
-This project aims to forecast the **number of customers visiting a restaurant** using supervised machine learning techniques. It was developed by **Nowa Analytics Consulting** to demonstrate how regression models can be used to support business decision-making through predictive analytics.
+This project demonstrates the use of **supervised machine learning** to **predict the number of customers in a restaurant** based on historical and contextual data. It was developed by **Nowa Analytics Consulting** as a portfolio project to showcase practical skills in data preprocessing, feature engineering, model building, and performance evaluation.
+
+This type of prediction is useful for improving business planning, such as staff allocation, inventory management, and service preparation.
 
 ## Objective
 
-The goal is to predict the expected number of restaurant customers based on historical data and influencing features such as date, weather, and reservations. Understanding customer volume in advance allows restaurant managers to optimize staffing, inventory, and service.
+The objective is to build regression models capable of accurately estimating how many customers are expected to visit the restaurant on a given day, using input features like:
 
-## Technologies Used
+* Date and time
+* Day of the week
+* Holidays
+* Weather conditions
+* Historical reservations and visits
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Seaborn & Matplotlib
-* Jupyter Notebook
+## Project Structure
 
-## Project Workflow
+The project follows a typical data science pipeline:
 
-1. **Data Loading**
-   The dataset is imported and its structure explored.
+1. **Data Collection & Loading**
+   Import and examine datasets from `.csv` files.
 
-2. **Data Cleaning**
-   Missing values are handled, and features are formatted appropriately.
+2. **Data Cleaning & Preparation**
+
+   * Handling missing values
+   * Merging datasets
+   * Formatting date-time features
+   * Creating new variables
 
 3. **Exploratory Data Analysis (EDA)**
-   Visualizations and statistics are used to explore trends and relationships.
+
+   * Visualizing distributions
+   * Detecting outliers
+   * Correlation analysis
 
 4. **Feature Engineering**
-   Relevant variables are created or transformed to enhance model performance.
 
-5. **Model Building**
-   Several regression algorithms were tested to estimate the number of customers, including:
+   * Extracting relevant components from dates
+   * Encoding categorical variables
+   * Normalizing/transforming features as needed
+
+5. **Modeling & Evaluation**
+   Several regression algorithms were tested and compared:
 
    * Linear Regression
    * Decision Tree Regressor
    * Random Forest Regressor
    * Gradient Boosting Regressor
+   * XGBoost Regressor
 
-6. **Model Evaluation**
-   Models are assessed using metrics such as:
+   **Metrics used**:
 
    * R² Score
    * Mean Absolute Error (MAE)
    * Root Mean Squared Error (RMSE)
 
-7. **Results and Interpretation**
-   The best model is selected based on performance. Insights are provided on the most influential features for predicting customer volume.
+6. **Model Selection & Insights**
+   The best model is selected based on performance, and business implications are discussed.
 
-## Key Outcome
+## Results
 
-The model successfully estimates the number of restaurant customers based on external and historical data, helping businesses make informed operational decisions.
+* The final model delivers accurate forecasts of daily customer volume.
+* Feature importance analysis reveals which factors most influence customer visits.
+
+## Technologies Used
+
+* Python
+* Pandas & NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib & Seaborn
+* Jupyter Notebook
+
+## About This Portfolio Project
+
+This project was created as part of my personal portfolio to demonstrate my capabilities in data science and machine learning, particularly in:
+
+* Data preparation and EDA
+* Building and tuning regression models
+* Interpreting results for business use cases
+
