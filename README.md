@@ -1,19 +1,14 @@
-# Project: Regression Model for Predictive Analytics
+# Restaurant Customer Forecasting Project
 
 **Developed by Nowa Analytics Consulting**
 
 ## Overview
 
-This project focuses on building and evaluating a regression model to predict numerical outcomes based on a dataset containing various features. The work was conducted by **Nowa Analytics Consulting** as part of a data science and analytics initiative, showcasing practical applications of regression models for business intelligence and decision-making.
+This project aims to forecast the **number of customers visiting a restaurant** using supervised machine learning techniques. It was developed by **Nowa Analytics Consulting** to demonstrate how regression models can be used to support business decision-making through predictive analytics.
 
 ## Objective
 
-The main goal of this project is to apply machine learning regression techniques to predict a target variable using input features. This kind of predictive modeling is commonly used in business scenarios such as:
-
-* Revenue forecasting
-* Customer lifetime value estimation
-* Sales predictions
-* Risk scoring
+The goal is to predict the expected number of restaurant customers based on historical data and influencing features such as date, weather, and reservations. Understanding customer volume in advance allows restaurant managers to optimize staffing, inventory, and service.
 
 ## Technologies Used
 
@@ -27,19 +22,19 @@ The main goal of this project is to apply machine learning regression techniques
 ## Project Workflow
 
 1. **Data Loading**
-   The dataset is loaded and explored to understand its structure and characteristics.
+   The dataset is imported and its structure explored.
 
 2. **Data Cleaning**
-   Missing values are handled, and relevant transformations are applied.
+   Missing values are handled, and features are formatted appropriately.
 
 3. **Exploratory Data Analysis (EDA)**
-   Visualizations and statistics are used to identify patterns, correlations, and insights.
+   Visualizations and statistics are used to explore trends and relationships.
 
 4. **Feature Engineering**
-   Features are selected and/or transformed to improve model performance.
+   Relevant variables are created or transformed to enhance model performance.
 
 5. **Model Building**
-   Different regression algorithms are trained and evaluated, including:
+   Several regression algorithms were tested to estimate the number of customers, including:
 
    * Linear Regression
    * Decision Tree Regressor
@@ -47,16 +42,15 @@ The main goal of this project is to apply machine learning regression techniques
    * Gradient Boosting Regressor
 
 6. **Model Evaluation**
-   Performance is assessed using standard regression metrics such as:
+   Models are assessed using metrics such as:
 
    * R² Score
    * Mean Absolute Error (MAE)
    * Root Mean Squared Error (RMSE)
 
-7. **Model Selection and Insights**
-   The best-performing model is selected based on the evaluation metrics. Key takeaways and insights are discussed.
+7. **Results and Interpretation**
+   The best model is selected based on performance. Insights are provided on the most influential features for predicting customer volume.
 
-## Results
+## Key Outcome
 
-The final model achieved satisfactory predictive performance and can be adapted or deployed in various business use cases where regression analysis is applicable.
-
+The model successfully estimates the number of restaurant customers based on external and historical data, helping businesses make informed operational decisions.
