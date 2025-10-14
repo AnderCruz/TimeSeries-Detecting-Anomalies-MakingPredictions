@@ -1,4 +1,4 @@
-# Forecasting Restaurant Customers with Regression Models
+# Time Series Analysis - Forecasting Restaurant Customers
 
 **Developed by Nowa Analytics Consulting**
 *Portfolio Project by Anderson Cruz*
